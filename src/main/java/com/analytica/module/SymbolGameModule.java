@@ -69,7 +69,7 @@ public class SymbolGameModule extends GameModule{
                     x = Integer.valueOf(values[0]);
                     y = Integer.valueOf(values[1]);
                 }else{
-                    System.out.println("Sorry position left for computer. So ending the game as tie");
+                    System.out.println("Sorry no position left for computer. So ending the game as tie");
                     break;
                 }
             }else{
